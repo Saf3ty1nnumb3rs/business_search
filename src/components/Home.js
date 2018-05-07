@@ -13,7 +13,7 @@ const HomeWrap = styled.div`
 
 class Home extends Component {
     state = {
-        business: 'Groundfloor',
+        business_name: 'Groundfloor',
         newLat: '',
         newLng: '',
         bus: INITIAL_BUSINESS
