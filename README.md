@@ -17,7 +17,7 @@ The exercise was of low to moderate complexity. Having limited exposure to searc
 I think the exercise was at a fair level of work. It didn't take too much time to build out and probably wouldn't take too much to extend the exercise as well.
 
 * Did you get a sense of how we work? 
-The exercise sugests that funcionality is a large part of what is required from the front end developers at Groundfloor, which makes sense even without having to do the exercise.
+The exercise suggests that funcionality is a large part of what is required from the front end developers at Groundfloor, which makes sense even without having to do the exercise.
 
 * Was there enough opportunity for you to show your stuff?
 I feel that the exercise having a fairly open format is a nice chance to play around and set things up however you like. I enjoy React and had typically utilized Express or Rails, so using a Node http local server was a great chance to try something different. Utilizing axios to call the server to consume the given endpoint turned out to be fairly easy in this context and will be something I maynutilize for personal projects going forward. Overall, this was a good opportunity to show a little bit of what I have going on from a development perspective.
