@@ -4,20 +4,19 @@ import Business from "./Business";
 
 class Search extends Component {
   state = {
-    query: "",
-    results: []
+    query: ""
   };
 
   componentDidMount() {}
 
-  showBusiness = () => {};
+  
+  
 
   updateSearch = event => {
     event.preventDefault();
     this.setState({ query: event.target.value.substr(0, 20) });
     console.log(this.state.query);
   };
-
   render() {
     const businesses = this.props.business;
     let filteredBusinesses = businesses.filter(business => {
@@ -30,7 +29,11 @@ class Search extends Component {
     let autoBusinesses = filteredBusinesses.map(business => {
       return (
         <li key={business.id}>
-          <Business className="autocomplete-items" business={business} mapUpdate={this.props.mapUpdate} />
+          <Business
+            className="autocomplete-items"
+            business={business}
+            mapUpdate={this.props.mapUpdate}
+          />
         </li>
       );
     });
@@ -42,7 +45,7 @@ class Search extends Component {
               type="text"
               value={this.props.query}
               onChange={this.updateSearch}
-              placeholder='Search Businesses'
+              placeholder="Search Businesses"
             />
           </div>
         </form>
@@ -70,7 +73,6 @@ const FormWrap = styled.div`
     margin-bottom: 0;
     padding: 10px;
     font-size: 16px;
-    
   }
   input[type="text"] {
     background-color: #f1f1f1;
@@ -114,5 +116,4 @@ const FormWrap = styled.div`
     /*when hovering an item:*/
     background-color: #e9e9e9;
   }
- 
 `;
