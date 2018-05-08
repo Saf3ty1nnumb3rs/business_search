@@ -1,10 +1,11 @@
 ## This was an exercise provided by Groundfloor for front-end developers. I chose to create a search form with an auto-complete filter for site search and navigation. The search bar filters businesses by name. Clicking on the business sets the lat and lng to state which is then provided by props to the reverse geocoder from the Google Maps API. This updates the map and provides the business name and address as a clickable link that could send you to a business page or view that could be extended to perhaps provide complete business information. I also threw in a search by state function which could be extended or altered to city search, business type, open/closed, or whatever available data provided by the data object.   
 
-### To Run Application From Project Directory in Terminal
-* Instal all packages 
-## npm i
-* Run concurrently
-## npm run dev ### (project is set to run on ports 3000 and 3001)
+# To Run Application From Project Directory in Terminal
+## Install all packages 
+### npm i
+## Run concurrently
+### npm run dev 
+#### (project is set to run on ports 3000 and 3001)
 
 
 ### git repository
