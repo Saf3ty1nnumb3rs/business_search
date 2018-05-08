@@ -2,9 +2,9 @@
 
 # To Run Application From Project Directory in Terminal
 ## Install all packages 
-### npm i
+* npm i
 ## Run concurrently
-### npm run dev 
+* npm run dev 
 #### (project is set to run on ports 3000 and 3001)
 
 
