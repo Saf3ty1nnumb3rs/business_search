@@ -8,11 +8,11 @@
 #### (project is set to run on ports 3000 and 3001)
 
 
-### git repository
+## git repository
 <a name="git" href="https://github.com/Saf3ty1nnumb3rs/business_search.git">gitHub</a>
 
 
-### Requested feedback
+## Requested feedback
 
 "Finally I would love your feedback on this part of the process. As you are going through the exercise please consider some of the following things:"
 
